@@ -77,8 +77,8 @@ Completen esta sección después de revisar cada hallazgo. No cambien el informe
 
 - **Veredicto:** confirmado 
 - **Evidencia:** Linea 3
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:**process.env.API_TOKEN
+- **Prueba de regresión:**buscarProducto usa process.env.API_TOKEN
 
 ### Hallazgo 3
 
@@ -105,22 +105,22 @@ Completen esta sección después de revisar cada hallazgo. No cambien el informe
 
 - **Veredicto:** descartado
 - **Evidencia:** vender controla stock; calcular el total en dinero es una función nueva, no un defecto del alcance.
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** NA/ Solo es una nueva función
+- **Prueba de regresión:** NA
 
 ### Hallazgo 7
 
 - **Veredicto:** descartado
 - **Evidencia:**  la lectura ocurre una vez en cargarConfiguracion, no en la ruta de ventas. En este alcance no bloquea la operación.
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** NA/Solo es una lectura 
+- **Prueba de regresión:** NA
 
 ### Hallazgo 8
 
 - **Veredicto:** descartado
 - **Evidencia:**  es una preferencia de estilo; el ciclo funciona y no es un defecto
-- **Corrección:** 
-- **Prueba de regresión:**
+- **Corrección:** NA/ Solo es una preferencia de estilo
+- **Prueba de regresión:** NA
 
 ## Declaración de uso de IA
 
