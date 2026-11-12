@@ -70,36 +70,36 @@ Completen esta sección después de revisar cada hallazgo. No cambien el informe
 
 - **Veredicto:** confirmado 
 - **Evidencia:** Linea 8 
-- **Corrección:** 
-- **Prueba de regresión:**
+- **Corrección:** Se cambiaron las condiciones por unas acordes con el programa.
+- **Prueba de regresión:** no concatena el nombre en la consulta
 
 ### Hallazgo 2
 
 - **Veredicto:** confirmado 
 - **Evidencia:** Linea 3
-- **Corrección:**process.env.API_TOKEN
+- **Corrección:** Ya el codigo no esta hardcodeado y se usó una indicacion ideal.
 - **Prueba de regresión:**buscarProducto usa process.env.API_TOKEN
 
 ### Hallazgo 3
 
 - **Veredicto:** confirmado 
-- **Evidencia:** 21 a 30
-- **Corrección:**
-- **Prueba de regresión:**
+- **Evidencia:** 21 a 30 
+- **Corrección:** Ya no hay cantidad negativa en el stock 
+- **Prueba de regresión:** rechaza una cantidad negativa
 
 ### Hallazgo 4
 
 - **Veredicto:** confirmado 
 - **Evidencia:** 33 a 36
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** Se rechazó la división entre 0
+- **Prueba de regresión:** el promedio vacío es cero
 
 ### Hallazgo 5
 
 - **Veredicto:** confirmado 
 - **Evidencia:** Lineas 44 a 50
-- **Corrección:**
-- **Prueba de regresión:**
+- **Corrección:** Se hace el recorrido sobre el stock disponible, sin recorrido de mas
+- **Prueba de regresión:** procesa el lote completo
 
 ### Hallazgo 6
 
