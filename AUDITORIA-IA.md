@@ -70,7 +70,7 @@ Completen esta sección después de revisar cada hallazgo. No cambien el informe
 
 - **Veredicto:** confirmado 
 - **Evidencia:** Linea 8 
-- **Corrección:** Se cambiaron las condiciones por unas acordes con el programa.
+- **Corrección:** Se cambiaron los parametros para evitar la inyección SQL
 - **Prueba de regresión:** no concatena el nombre en la consulta
 
 ### Hallazgo 2
