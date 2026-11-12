@@ -68,58 +68,58 @@ Completen esta sección después de revisar cada hallazgo. No cambien el informe
 
 ### Hallazgo 1
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
-- **Corrección:**
+- **Veredicto:** confirmado 
+- **Evidencia:** Linea 8 
+- **Corrección:** 
 - **Prueba de regresión:**
 
 ### Hallazgo 2
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** confirmado 
+- **Evidencia:** Linea 3
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 3
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** confirmado 
+- **Evidencia:** 21 a 30
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 4
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** confirmado 
+- **Evidencia:** 33 a 36
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 5
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** confirmado 
+- **Evidencia:** Lineas 44 a 50
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 6
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** descartado
+- **Evidencia:** vender controla stock; calcular el total en dinero es una función nueva, no un defecto del alcance.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 7
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
+- **Veredicto:** descartado
+- **Evidencia:**  la lectura ocurre una vez en cargarConfiguracion, no en la ruta de ventas. En este alcance no bloquea la operación.
 - **Corrección:**
 - **Prueba de regresión:**
 
 ### Hallazgo 8
 
-- **Veredicto:** confirmado / descartado
-- **Evidencia:**
-- **Corrección:**
+- **Veredicto:** descartado
+- **Evidencia:**  es una preferencia de estilo; el ciclo funciona y no es un defecto
+- **Corrección:** 
 - **Prueba de regresión:**
 
 ## Declaración de uso de IA
